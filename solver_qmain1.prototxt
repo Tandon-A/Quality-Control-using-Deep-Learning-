@@ -1,4 +1,4 @@
-net: "D:\\Abhishek_Tandon\\sop_scm\\model\\qmain1_net.prototxt"
+net: "model\\qmain1_net.prototxt"
 
 display: 20
 
@@ -20,7 +20,7 @@ regularization_type: "L2"
 
 snapshot: 500
 
-snapshot_prefix: "D:\\Abhishek_Tandon\\sop_scm\\model\\snap\\main\\"
+snapshot_prefix: "model\\snap\\main\\"
 
 solver_mode: CPU
 
