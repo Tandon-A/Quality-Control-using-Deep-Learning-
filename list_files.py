@@ -5,16 +5,16 @@ Python helper file to prepare train.txt. One for full network and one for each c
 import os 
 
 #change path variable to location where data is stored 
-path = "D:\\Abhishek_Tandon\\sop_scm\\data\\data\\"
+path = "data\\"
 
 #Open training files 
-f = open("D:\\Abhishek_Tandon\\sop_scm\\main_data.txt","a")
-fsub1 = open("D:\\Abhishek_Tandon\\sop_scm\\sub1.txt","a")
-fsub2 = open("D:\\Abhishek_Tandon\\sop_scm\\sub2.txt","a")
-fsub3 = open("D:\\Abhishek_Tandon\\sop_scm\\sub3.txt","a")
-fsub4 = open("D:\\Abhishek_Tandon\\sop_scm\\sub4.txt","a")
-fsub5 = open("D:\\Abhishek_Tandon\\sop_scm\\sub5.txt","a")
-fsub6 = open("D:\\Abhishek_Tandon\\sop_scm\\sub6.txt","a")
+f = open("main_data.txt","a")
+fsub1 = open("sub1.txt","a")
+fsub2 = open("sub2.txt","a")
+fsub3 = open("sub3.txt","a")
+fsub4 = open("sub4.txt","a")
+fsub5 = open("sub5.txt","a")
+fsub6 = open("sub6.txt","a")
 
 
 
