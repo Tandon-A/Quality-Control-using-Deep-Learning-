@@ -3,9 +3,9 @@ import caffe
 import matplotlib.pyplot as plt
 
 #change mod_def to path of model definition 
-mod_def = "D:\Abhishek_Tandon\sop_scm\model\deploy_qmain1_net.prototxt"
+mod_def = "model\deploy_qmain1_net.prototxt"
 #change mod_weights to path of model weights
-mod_weights ="D:\Abhishek_Tandon\sop_scm\model\snap\main\_iter_2000.caffemodel" 
+mod_weights ="\model\snap\main\_iter_2000.caffemodel" 
 #load Net defined by the model definition prototxt and the model weights
 mod = caffe.Net(mod_def,mod_weights,caffe.TEST)
 
@@ -23,7 +23,7 @@ mod.blobs['data'].reshape(1,3,128,128)
 acc = 0
 
 #Open train.txt file 
-f = open("D:\Abhishek_Tandon\sop_scm\main1_data.txt","r")
+f = open("main1_data.txt","r")
 files = f.readlines()
 for i in files:
     out = i.split(' ')
