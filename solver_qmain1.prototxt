@@ -1,0 +1,29 @@
+net: "D:\\Abhishek_Tandon\\sop_scm\\model\\qmain1_net.prototxt"
+
+display: 20
+
+base_lr: 0.00001
+
+momentum: 0.9
+
+gamma: 0.012
+
+lr_policy: "step"
+
+stepsize: 1000
+
+max_iter: 10000
+
+weight_decay: 0.00005
+
+regularization_type: "L2"
+
+snapshot: 500
+
+snapshot_prefix: "D:\\Abhishek_Tandon\\sop_scm\\model\\snap\\main\\"
+
+solver_mode: CPU
+
+debug_info: true
+
+#using L2 Weight Regularization along with Softmax Loss 
