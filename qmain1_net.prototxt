@@ -19,7 +19,7 @@ layer {
     batch_size: 64
     new_height: 128
     new_width: 128
-
+    #rescale image to 128 x 128 
   }
 
 }
