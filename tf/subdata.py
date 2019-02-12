@@ -99,7 +99,7 @@ def prep_imgs(data_path,class_no,gw,gh,nw,nh,stride,tr_range_nd,tr_range_d):
   i = class_no - 1 
   cl_nd = glob(data_path + ("Class%d//*" %(i+1)))         #non-defective images stored in Class(Class_no) folder, eg- Class1
   cl_d =  glob(data_path + ("Class%d_def//*" %(i+1)))     #defective images stored in Class(Class_no)_def folder, eg- Class1_def
-  file_path = data_path + ("pointlist//qcdlsub%dlist" %(i+1))
+  file_path = data_path + ("qcdlsub%dlist" %(i+1))        #extraction points for defective images are stored in qcdlsub(Class_no)list file as prepared by prepdatalist, eg- qcdlsub1list
   dbfile = open(file_path,"rb")
   db = pickle.load(dbfile)
   dbfile.close()
