@@ -35,7 +35,7 @@ To enlarge the defective images set small patches are extracted manually after w
 ###### Table1: Sample defective images per class. 
 
 
-![Sampling Video](https://raw.githubusercontent.com/Tandon-A/Quality-Control-using-Deep-Learning-/master/assets/vid.gif "Sample extraction")
+![Sampling Video](https://raw.githubusercontent.com/Tandon-A/Quality-Control-using-Deep-Learning-/master/assets/vid2.gif "Sample extraction")
 
 ###### Fig2: Sample extraction from defective images
 
