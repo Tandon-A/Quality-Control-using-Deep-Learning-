@@ -118,7 +118,7 @@ def main(_):
             tr_x,tr_y,val_x,val_y = subdata.prep_imgs(FLAGS.data_path+"/",int(FLAGS.class_no),org_size[0],org_size[1],input_shape[0],input_shape[1],stride,tr_range_nd,tr_range_d)
           tf.reset_default_graph()
           model = qcdl(input_shape,out_classes,model_name)
-          train(model,FLAGS.model_dir+"/",batch_size,tr_x,tr_y,val_x,val_y,lr_rate)
+          train(model, os.path.join(FLAGS.model_dir, model_name), batch_size, tr_x, tr_y, val_x, val_y, lr_rate)
           print ("training model= %r completed" %(model_name))
           
 flags = tf.app.flags
